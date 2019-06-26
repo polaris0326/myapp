@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('input') {
       steps {
-        input(message: 'Proceed or Abort', submitter: 'gerald.xv')
+        input(message: 'Proceed or Abort', submitter: 'gerald.xv, gerald')
       }
     }
   }
